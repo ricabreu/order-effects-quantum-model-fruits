@@ -1,2 +1,43 @@
-# order-effects-quantum-model-fruits
-Python code and data to reproduce the empirical sequential probabilities and minimal Hamiltonian quantum-like model reported in Order Effects in Binary Judgments. Includes computation of order effects, non-commutativity, and model fitting for apple, banana, and lemon stimuli
+# Order Effects in Binary Judgments
+
+This repository contains the data and Python code required to reproduce the empirical analyses and model-based results reported in the paper:
+
+**Order Effects in Binary Judgments: A Minimal Hamiltonian Quantum-Like Model**
+
+The study investigates order effects in binary evaluative judgments and demonstrates how non-commutativity arises under attribute conflict using a minimal Hamiltonian quantum-like framework.
+
+---
+
+## Repository Contents
+
+- `data/`  
+  Empirical data collected via an online experiment (Excel format).
+
+- `code/`  
+  Python scripts implementing:
+  - computation of empirical sequential probabilities  
+  - quantum-like sequential measurement using Lüders’ rule  
+  - parameter estimation for the minimal Hamiltonian model  
+
+- `paper/`  
+  Supplementary LaTeX material supporting the Appendix of the manuscript.
+
+- `results/`  
+  Example outputs illustrating expected results.
+
+---
+
+## Requirements
+
+The analysis was implemented in Python (≥3.9). Required packages:
+
+- numpy  
+- pandas  
+- scipy  
+- openpyxl  
+
+To install dependencies:
+
+```bash
+pip install -r code/requirements.txt
+
