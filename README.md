@@ -33,5 +33,5 @@ The analysis was implemented in Python (≥3.9). Required packages:
 To install dependencies:
 
 ```bash
-pip install -r code/requirements.txt
+pip install -r main/requirements.txt
 
