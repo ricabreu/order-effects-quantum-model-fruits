@@ -19,12 +19,6 @@ The study investigates order effects in binary evaluative judgments and demonstr
   - quantum-like sequential measurement using Lüders’ rule  
   - parameter estimation for the minimal Hamiltonian model  
 
-- `paper/`  
-  Supplementary LaTeX material supporting the Appendix of the manuscript.
-
-- `results/`  
-  Example outputs illustrating expected results.
-
 ---
 
 ## Requirements
